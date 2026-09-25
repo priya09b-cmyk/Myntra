@@ -7,5 +7,5 @@ test('Frame handling', async ({ page }) =>{
     await frame.locator('//h3[text()="JMeter Training"]/ancestor::a').click();
     let frame1 = await frame.locator('//h3[text()="Mobile Application Testing Training"]/ancestor::a').click();
 // console.log(frame1);
-    await page.waitForTimeout(4000);
-    });
+    // await page.waitForTimeout(4000);)
+    // });
